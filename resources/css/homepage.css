@@ -17,6 +17,7 @@ body {
 	display: inline;
 	width: 100%;
 	list-style-type: none;
+	position: absolute;
 }
 
 li {
@@ -24,6 +25,7 @@ li {
 }
 
 .mainheading {
+	padding-top: 150px;
 	text-align: center;
 }
 
