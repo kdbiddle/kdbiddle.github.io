@@ -11,12 +11,16 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29757b', endColorstr='#0b211e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-.navbar-inverse {
+.navigation {
 	color: white;
 	font-size: 25px;
 	display: inline;
 	width: 100%;
 	list-style-type: none;
+}
+
+li {
+	display: inline;
 }
 
 .mainheading {
