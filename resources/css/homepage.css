@@ -22,7 +22,7 @@ body {
 	list-style-type: none;
 	padding: 10px;
 	position: fixed;
-	margin-top: -5%;
+	margin-top: -10%;
 }
 
 li {
@@ -50,7 +50,7 @@ li:hover {
 .mainheading {
 	text-align: center;
 	color: white;
-	margin-top: 5%;
+	margin-top: 10%;
 	padding: 25px 0;
 }
 
@@ -58,6 +58,7 @@ li:hover {
 	height: 25%;
 	width: 25%;
 	padding: 5px;
+	border: 2px solid white;
 	border-radius: 10%;
 }
 
@@ -82,7 +83,7 @@ li:hover {
 
 .portfolio {
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 .tile {
