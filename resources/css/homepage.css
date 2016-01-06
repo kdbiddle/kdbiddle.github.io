@@ -5,15 +5,11 @@ html, body {
 }
 
 body {
-	/*background: rgb(41,117,123); /* Old browsers */
-	/*background: -moz-linear-gradient(-45deg,  rgba(41,117,123,1) 0%, rgba(11,33,30,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(-45deg,  rgba(41,117,123,1) 0%,rgba(11,33,30,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(135deg,  rgba(41,117,123,1) 0%,rgba(11,33,30,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29757b', endColorstr='#0b211e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url(https://images.unsplash.com/photo-1438480478735-3234e63615bb?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325);
 	background-repeat: no-repeat;
 	background-color: black;
 	background-attachment: fixed;
+	width: 100%;
 }
 
 .navigation {
