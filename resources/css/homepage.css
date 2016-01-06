@@ -12,6 +12,10 @@ body {
 	width: 100%;
 }
 
+div {
+	margin: 5% 15%;
+}
+
 .navigation {
 	font-size: 20px;
 	width: 100%;
@@ -47,7 +51,7 @@ li:hover {
 	text-align: center;
 	color: white;
 	margin-top: 10%;
-	padding: 25px 0;
+	padding: 0;
 }
 
 .headshot {
@@ -55,6 +59,7 @@ li:hover {
 	width: 25%;
 	padding: 5px;
 	border: 2px solid white;
+	margin-bottom: 25px;
 	border-radius: 10%;
 }
 
@@ -97,4 +102,28 @@ li:hover {
 
 .contact {
 	text-align: center;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+h1:before, h1:after {
+  background-color: #ddd;
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  position: relative;
+  top: 0.5em;
+}
+
+h1:before {
+  margin-right:10px;
+}
+
+h1:after {
+  margin-left:10px;
 }
