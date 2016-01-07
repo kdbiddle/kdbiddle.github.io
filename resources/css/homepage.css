@@ -89,12 +89,22 @@ li:hover {
 	margin-top: 20%;
 }
 
+.portfolio img {
+	margin-top: 20%;
+}
+
 .tile {
 	height: 250px;
 	width: 250px;
-	background-color: black;
 	display: inline-block;
 	margin: 5% 2%;
+	border-radius: 5px;
+}
+
+.tile img {
+	height: 100%;
+	width: 100%;
+	display: relative;
 	border-radius: 5px;
 }
 
