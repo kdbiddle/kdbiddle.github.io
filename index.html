@@ -20,48 +20,86 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span> 
 				      </button> <!--hamburger menu button-->
-	     				<a class="navbar-brand" href="#">Kevin Biddle</a> <!--brand/logo-->
+	     				<a class="navbar-brand" href="#"><strong>Kevin Biddle</strong></a> <!--brand/logo-->
 				    </div>
 		    		<div class="collapse navbar-collapse" id="myNavbar">
 		      			<ul class="nav navbar-nav">
-		        			<li><a href="#">Home</a></li>
-		        			<li><a href="#">Portfolio</a></li>
-		        			<li><a href="#">About</a></li> 
-		        			<li><a href="#">Contact</a></li> 
+		        			<li><a href="#home">Home</a></li>
+		        			<li><a href="#portfolio">Portfolio</a></li>
+		        			<li><a href="#about">About</a></li> 
+		        			<li><a href="#contact">Contact</a></li> 
 		      			</ul>
 		    		</div>
 	  			</div> <!-- /fluid container-->
 			</nav> <!-- /navbar -->
-			<div class="jumbotron">
+			<div class="jumbotron" id="home">
 				<div class="row">
 					<!--<h1>This website is currently under construction. Please check back later.</h1>-->
 					<div><h1>Kevin Biddle</h1></div>
 					<div><h2>Web Developer</h2></div>
 				</div><!--end title row-->
 				<div class="row">
-					<div><img class="img-responsive img-circle center-block" src="http://placehold.it/250x250" alt="Headshot Photo"></div>
+					<div><img class="img-responsive img-rounded center-block" src="http://placehold.it/250x250" alt="Headshot Photo"></div>
 				</div> <!--end main image row-->
 			</div> <!--/jumbotron-->
 			<div>
-				<div class="row">
-					<h1>Portfolio</h1>
+				<div class="portfolio" id="portfolio">
+					<div class="row">
+						<h1>Portfolio</h1>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="flip-container center-block" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img class="img-responsive img-rounded" src="http://placehold.it/250x250" alt="Portfolio Project">
+									</div>
+									<div class="back">
+										<h2>Project Info</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="flip-container center-block" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img class="img-responsive img-rounded" src="http://placehold.it/250x250" alt="Portfolio Project">
+									</div>
+									<div class="back">
+										<h2>Project Info</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="flip-container center-block" ontouchstart="this.classList.toggle('hover');">
+								<div class="flipper">
+									<div class="front">
+										<img class="img-responsive img-rounded" src="http://placehold.it/250x250" alt="Portfolio Project">
+									</div>
+									<div class="back">
+										<h2>Project Info</h2>
+									</div>
+								</div>
+							</div></div>
+					</div>
 				</div>
+			</div><!-- /portfolio -->
+			<div class="about" id="about">
 				<div class="row">
-					<div class="col-md-4"><img class="img-responsive img-rounded center-block" src="http://placehold.it/250x250" alt="Portfolio Project"></div>
-					<div class="col-md-4"><img class="img-responsive img-rounded center-block" src="http://placehold.it/250x250" alt="Portfolio Project"></div>
-					<div class="col-md-4"><img class="img-responsive img-rounded center-block" src="http://placehold.it/250x250" alt="Portfolio Project"></div>
-				</div>
-			</div>
-			<div class="row">
-				<h1>My Story</h1>
-				<br>
-				<h4>I originally began studying web development in early 2004 as a high school student. After traveling many paths, I rediscovered my passion for web development and decided to pursue it as a career. I'm proficient with HTML5, CSS3, and Javascript on the front-end, including common libraries such as Bootstrap and jQuery. On the back-end I am familiar with Ruby and the Ruby on Rails framework.</h4>
-			</div> <!--end about row-->
-			<div class="row">
-				<h1>Contact Me</h1>
-				<img class="img-rounded" src="http://placehold.it/100x100" alt="Github portfolio link">
-				<img class="img-rounded" src="http://placehold.it/100x100" alt="Email link">
-			</div><!--end contact row-->
+					<h1>My Story</h1>
+					<br>
+					<h4>I originally began studying web development in early 2004 as a high school student. After traveling many paths, I rediscovered my passion for web development and decided to pursue it as a career. I'm proficient with HTML5, CSS3, and Javascript on the front-end, including common libraries such as Bootstrap and jQuery. On the back-end I am familiar with Ruby and the Ruby on Rails framework.</h4>
+				</div> <!--end about row-->
+			</div><!--/about-->
+			<div class="contact" id="contact">
+				<div class="row">
+					<h1>Contact Me</h1>
+					<img class="img-rounded" src="http://placehold.it/100x100" alt="Github portfolio link">
+					<img class="img-rounded" src="http://placehold.it/100x100" alt="Email link">
+				</div><!--end contact row-->
+				</div><!--/contact-->
 		</div>
 	</body>
 </html>
