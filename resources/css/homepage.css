@@ -32,38 +32,78 @@ body {
 	border-radius: 5px;
 }
 
-.flip-container {
-	perspective: 1000;
+@media (min-width:800px) {
+	.flip-container {
+		perspective: 1000;
+	}
+
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+	.flip-container, .front, .back {
+		width: 250px;
+		height: 250px;
+	}
+
+	.flipper {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+		margin: 5% 0;
+	}
+
+	.front, .back {
+		backface-visibility: hidden;
+		position: absolute;
+		margin: 2%;
+	}
+
+	.front {
+		z-index:2;
+		transform: rotateY(0deg);
+	}
+
+	.back {
+		transform: rotateY(180deg);
+		background-color: rgba(0,0,0,0.7);
+		border-radius: 5px;
+	}
 }
 
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-	transform: rotateY(180deg);
-}
+@media (max-width:800px) {
+	.flip-container {
+		perspective: 1000;
+	}
 
-.flip-container, .front, .back {
-	width: 250px;
-	height: 250px;
-}
+	.flip-container:active .flipper, .flip-container.active .flipper {
+		transform: rotateY(180deg);
+	}
 
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	margin: 5% 0;
-}
+	.flip-container, .front, .back {
+		width: 250px;
+		height: 250px;
+	}
 
-.front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	margin: 2%;
-}
+	.flipper {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+		margin: 5% 0;
+	}
 
-.front {
-	z-index:2;
-	transform: rotateY(0deg);
-}
+	.front, .back {
+		backface-visibility: hidden;
+		position: absolute;
+		margin: 2%;
+	}
 
-.back {
-	transform: rotateY(180deg);
-	background-color: rgba(0,0,0,0.7);
-	border-radius: 5px;
+	.front {
+		z-index:2;
+		transform: rotateY(0deg);
+	}
+
+	.back {
+		transform: rotateY(180deg);
+		background-color: rgba(0,0,0,0.7);
+		border-radius: 5px;
+	}
 }
