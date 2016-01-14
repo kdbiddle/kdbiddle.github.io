@@ -24,6 +24,11 @@ body {
 	margin: 5%;
 }
 
+.headshot {
+	max-width: 250px;
+	max-height: 250px;
+}
+
 .ghostbutton {
 	background-color: transparent;
 	border: 1px solid white;
