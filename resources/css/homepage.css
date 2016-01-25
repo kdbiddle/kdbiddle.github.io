@@ -46,12 +46,13 @@ body {
 	margin: 15px;
 	width: 150px;
 	height: 35px;
+	color: white;
 }
 
 .ghostbutton:hover {
-	background-color: #9d9d9d;
+	background-color: #e6e6e6;
 	color: rgba(0,0,0,0.7);
-	border: 1px solid black;
+	border: 1px solid rgba(0,0,0,0.7);
 }
 
 .services, .portfolio, .about, .contact {
