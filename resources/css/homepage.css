@@ -14,11 +14,16 @@ body {
 	border: 0;
 	margin-left: -5%;
 	margin-right: -5%;
+	padding-top: 5%;
 	padding-bottom: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color:  rgba(0,0,0,0.5);
 	color: white;
+}
+
+.page-header h1, .page-header h2 {
+	margin: 2%;
 }
 
 @media (max-width: 500px) {
