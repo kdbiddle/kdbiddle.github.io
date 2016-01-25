@@ -63,8 +63,14 @@ body {
 }
 
 .portfolio img {
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.thumbnail {
+	max-height: 500px;
+	padding: 5%;
+
 }
 
 #gmaillink, #githublink, #linkedinlink {
