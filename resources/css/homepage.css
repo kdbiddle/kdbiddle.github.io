@@ -25,6 +25,13 @@ body {
 	body {
 		padding-top: 15%;
 	}
+
+	.page-header {
+		margin-top: -10%;
+		margin-bottom: -5%;
+		padding-top: 10%;
+		padding-bottom: 15%;
+	}
 }
 
 .headshot {
