@@ -1,0 +1,12 @@
+[submodule "google-homepage"]
+	path = google-homepage
+	url = git@github.com:kdbiddle/google-homepage.git
+[submodule "javascript_101"]
+	path = javascript_101
+	url = git@github.com:kdbiddle/javascript_101.git
+[submodule "sketch_pad"]
+	path = sketch_pad
+	url = git@github.com:kdbiddle/sketch_pad.git
+[submodule "resume"]
+	path = resume
+	url = git@github.com:kdbiddle/resume.git
