@@ -75,10 +75,6 @@ body {
 	max-height: 225px;
 }
 
-.inprogress {
-	color: red;
-}
-
 .thumbnail {
 	max-height: 600px;
 	padding: 5%;
