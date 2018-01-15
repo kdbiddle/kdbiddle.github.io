@@ -64,7 +64,10 @@ body {
 .services, .portfolio, .about, .contact {
 	background-color: #e6e6e6;
 	color: #8c8c8c;
-	padding: 10%;
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	padding-top: 5%;;
 	margin: -5%;
 }
