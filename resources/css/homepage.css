@@ -37,7 +37,6 @@ body {
 		padding-top: 10%;
 		padding-bottom: 15%;
 	}
-
 }
 
 .headshot {
@@ -81,7 +80,6 @@ body {
 .thumbnail {
 	height: 600px;
 	padding: 5%;
-
 }
 
 #gmaillink, #githublink, #linkedinlink {
@@ -91,15 +89,12 @@ body {
 
 #gmaillink:hover {
 	color: #dd4b39;
-	margin: 2%;
 }
 
 #githublink:hover {
 	color: #000000;
-	margin: 2%;
 }
 
 #linkedinlink:hover {
 	color: #007bb5;
-	margin: 2%;
 }
