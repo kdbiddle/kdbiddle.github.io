@@ -4,6 +4,3 @@
 [submodule "projects/sketch_pad"]
 	path = projects/sketch_pad
 	url = https://github.com/kdbiddle/sketch_pad.git
-[submodule "projects/react-tac-toe"]
-	path = projects/react-tac-toe
-	url = https://github.com/kdbiddle/react-tac-toe.git
